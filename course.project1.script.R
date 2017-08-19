@@ -86,3 +86,7 @@ install.packages("lattice")
 library(lattice)
 xyplot(average.steps~interval|wk.day, data=d5, xlab= "interval", 
        ylab="Average number of steps", layout=c(1,2), type="l" )
+#after creation of the Rmarkdown file
+install.packages("knitr")
+library(knitr)
+knit2html("PA1_template.Rmd") 
