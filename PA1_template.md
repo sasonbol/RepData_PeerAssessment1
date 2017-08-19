@@ -6,15 +6,6 @@ I loaded the data file in order to analyze it.
 ```r
 data<-read.csv("activity.csv")
 ```
-
-```
-## Warning in file(file, "rt"): cannot open file 'activity.csv': No such file
-## or directory
-```
-
-```
-## Error in file(file, "rt"): cannot open the connection
-```
 I used the dplyr package in this assignment so I loaded the installed package.
 
 ```r
